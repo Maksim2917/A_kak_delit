@@ -1,6 +1,6 @@
-import math
+from math import inf
 def divide (first, second):
     if second != 0:
         return (first/second)
     else:
-        return (math.inf)
+        return inf
